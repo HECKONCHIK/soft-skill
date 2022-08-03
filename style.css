@@ -1,0 +1,9 @@
+ul {
+    list-style: none;
+}
+.emotion-list {
+    display: flex;
+}
+.emotion-item:not(:last-child) {
+    margin-right: 30px;
+}
