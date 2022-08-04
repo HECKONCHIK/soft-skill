@@ -3,7 +3,20 @@ ul {
 }
 .emotion-list {
     display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex-wrap: wrap;
+}
+.emotion-item:nth-child(4) {
+    margin-top: 30px;
+}
+.emotion-item:nth-child(5) {
+    margin-top: 30px;
 }
 .emotion-item:not(:last-child) {
     margin-right: 30px;
+}
+.emotion-img {
+    border-radius: 10px;
 }
